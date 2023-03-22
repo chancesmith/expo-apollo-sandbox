@@ -15,7 +15,7 @@ A playground for testing Apollo with Expo.
 ## branches (🚧 in progress, 🏁 finished)
 
 ├── 🏁 `main` Apollo Client with caching
-├── `mutation-optomistic-ui` Mutation with optomistic UI
+├── 🚧 `mutation-optomistic-ui` Mutation with optomistic UI
 ├── `offline-support` Offline support
 ├── `subscriptions` Subscriptions
 ├── `state-navigation-recovery` State and navigation recovery
