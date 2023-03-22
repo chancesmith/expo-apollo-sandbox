@@ -16,7 +16,7 @@ A playground for testing Apollo with Expo.
 
 ```
 ├── 🏁 `main` Apollo Client with caching
-├── 🚧 `mutation-optomistic-ui` Mutation with optomistic UI
+├── 🚧 `mutation-optimistic-ui` Mutation with optomistic UI
 ├── `offline-support` Offline support
 ├── `subscriptions` Subscriptions
 ├── `state-navigation-recovery` State and navigation recovery
@@ -26,7 +26,7 @@ A playground for testing Apollo with Expo.
 ## areas to sandbox
 
 - [x] setup apollo client
-- [ ] add mutation + optomistic UI ([reactive variables](https://www.apollographql.com/docs/react/local-state/local-state-management#reactive-variables))
+- [ ] add mutation + optimistic UI ([reactive variables](https://www.apollographql.com/docs/react/local-state/local-state-management#reactive-variables))
 - [ ] offline support: "user goes offline, then back online" ([article 1](https://codeburst.io/highly-functional-offline-applications-using-apollo-client-12885bd5f335), [article 2](https://medium.com/twostoryrobot/a-recipe-for-offline-support-in-react-apollo-571ad7e6f7f4))
 - [ ] add graphQL subscriptions
 - [ ] add state and navigation recovery (user closes the app)
