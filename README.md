@@ -26,9 +26,9 @@ A playground for testing Apollo with Expo.
 ## areas to sandbox
 
 - [x] setup apollo client
-- [ ] add mutation + optimistic UI ([reactive variables](https://www.apollographql.com/docs/react/local-state/local-state-management#reactive-variables))
-- [ ] offline support: "user goes offline, then back online" ([article 1](https://codeburst.io/highly-functional-offline-applications-using-apollo-client-12885bd5f335), [article 2](https://medium.com/twostoryrobot/a-recipe-for-offline-support-in-react-apollo-571ad7e6f7f4))
-- [ ] add graphQL subscriptions
-- [ ] add state and navigation recovery (user closes the app)
-- [ ] add mock server ([msw](https://mswjs.io/docs/getting-started/mocks/graphql-api))
-- [ ] add multilingual support ([i18next](https://react.i18next.com/), [Ignite example](https://github.com/infinitered/ignite/blob/b3d5b0db710a75ec349a1eb142f27bdffb3691ad/boilerplate/app/i18n/i18n.ts))
+- [ ] offline support with cache: "user goes offline, then back online" ([article 1](https://codeburst.io/highly-functional-offline-applications-using-apollo-client-12885bd5f335), [article 2](https://medium.com/twostoryrobot/a-recipe-for-offline-support-in-react-apollo-571ad7e6f7f4))
+- [ ] add mutation + optomistic UI ([reactive variables](https://www.apollographql.com/docs/react/local-state/local-state-management#reactive-variables))
+- [ ] graphQL subscriptions
+- [ ] state and navigation recovery (user closes the app)
+- [ ] mock server ([msw](https://mswjs.io/docs/getting-started/mocks/graphql-api))
+- [ ] save downloads to local storage ??
