@@ -18,7 +18,8 @@ A playground for testing Apollo with Expo.
 ├── `mutation-optomistic-ui` Mutation with optomistic UI
 ├── `offline-support` Offline support
 ├── `subscriptions` Subscriptions
-└── `state-navigation-recovery` State and navigation recovery
+├── `state-navigation-recovery` State and navigation recovery
+└── `mock-server` Mock server
 
 ## areas to sandbox
 
@@ -27,3 +28,4 @@ A playground for testing Apollo with Expo.
 - [ ] offline support (user goes offline, then back online)
 - [ ] graphQL subscriptions
 - [ ] state and navigation recovery (user closes the app)
+- [ ] mock server (for testing and local dev work)
