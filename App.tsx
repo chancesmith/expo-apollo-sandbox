@@ -1,20 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
+import { StatusBar } from "expo-status-bar";
+import { View, Text } from "react-native";
+import { CustomerList } from "./components/CustomerList";
+import { CONTAINER } from "./styles";
+import { API_URL, API_SECRET } from "@env";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+if (!API_URL || !API_SECRET) {
+  alert(
+    "No API_URL or API_SECRET set. Please set these in the .env file in the root of the project."
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+const client = new ApolloClient({
+  uri: API_URL,
+  cache: new InMemoryCache(),
+  headers: {
+    "x-hasura-admin-secret": API_SECRET || "no secret",
   },
 });
+
+export default function App() {
+  return (
+    <ApolloProvider client={client}>
+      <View style={CONTAINER}>
+        <StatusBar style="auto" />
+        <CustomerList />
+      </View>
+    </ApolloProvider>
+  );
+}
