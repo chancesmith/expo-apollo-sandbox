@@ -25,7 +25,7 @@ A playground for testing Apollo with Expo.
 
 - [x] setup apollo client
 - [ ] add mutation + optomistic UI ([reactive variables](https://www.apollographql.com/docs/react/local-state/local-state-management#reactive-variables))
-- [ ] offline support (user goes offline, then back online)
+- [ ] offline support: "user goes offline, then back online" ([article 1](https://codeburst.io/highly-functional-offline-applications-using-apollo-client-12885bd5f335), [article 2](https://medium.com/twostoryrobot/a-recipe-for-offline-support-in-react-apollo-571ad7e6f7f4))
 - [ ] graphQL subscriptions
 - [ ] state and navigation recovery (user closes the app)
-- [ ] mock server (for testing and local dev work)
+- [ ] mock server ([msw](https://mswjs.io/docs/getting-started/mocks/graphql-api))
