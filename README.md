@@ -16,8 +16,8 @@ A playground for testing Apollo with Expo.
 
 ```
 ├── 🏁 `main` Apollo Client with caching
+├── 🚧 `offline-support` Offline support
 ├── 🚧 `mutation-optimistic-ui` Mutation with optomistic UI
-├── `offline-support` Offline support
 ├── `subscriptions` Subscriptions
 ├── `state-navigation-recovery` State and navigation recovery
 └── `mock-server` Mock server
