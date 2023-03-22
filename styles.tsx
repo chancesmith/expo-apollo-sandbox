@@ -1,4 +1,4 @@
-import type { TextStyle, ViewStyle } from "react-native";
+import { TextStyle, ViewStyle } from "react-native";
 
 export const CONTAINER: ViewStyle = {
   flex: 1,
@@ -8,6 +8,7 @@ export const CONTAINER: ViewStyle = {
 };
 
 export const TEXT: TextStyle = { color: "white", fontSize: 20 };
+
 export const HEADING: TextStyle = {
   ...TEXT,
   fontSize: 30,

@@ -1,13 +1,13 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
+import { API_SECRET, API_URL } from "@env";
 import { StatusBar } from "expo-status-bar";
-import { View, Text } from "react-native";
+import { View } from "react-native";
 import { CustomerList } from "./components/CustomerList";
 import { CONTAINER } from "./styles";
-import { API_URL, API_SECRET } from "@env";
 
 if (!API_URL || !API_SECRET) {
   alert(
-    "No API_URL or API_SECRET set. Please set these in the .env file in the root of the project."
+    "No API_URL or API_SECRET set. It's possible this project is missing the /.env file in the root of the project."
   );
 }
 
