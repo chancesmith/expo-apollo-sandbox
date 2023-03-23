@@ -32,3 +32,4 @@ A playground for testing Apollo with Expo.
 - [ ] state and navigation recovery (user closes the app)
 - [ ] mock server ([msw](https://mswjs.io/docs/getting-started/mocks/graphql-api))
 - [ ] save downloads to local storage ??
+- [ ] low internet connection
